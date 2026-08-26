@@ -28,7 +28,7 @@ from flask import Flask, render_template_string, url_for
 app = Flask(__name__)
 
 # ---- Personalize here ----
-NAME = "Babe"
+NAME = "Friend"
 AGE_LABEL = "Level 24"          # e.g. "Level 24", or leave as "" to hide
 FINAL_WISH = "Shine just like this Diamond."
 
