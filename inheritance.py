@@ -980,17 +980,17 @@ student=Student("BTech")
 # obj.show()
 
 
-class NumberProperties:
-    def square(self):
-        return self.number**2
-class DivisibilityChecker:
-    def divisible_by_3(self):
-        return self.number%3==0
-class NumberAnalyzer(NumberProperties,DivisibilityChecker):
-    def __init__(self,number):
-        self.number=number
-obj=NumberAnalyzer(12)
-print(obj.square())
-print(obj.divisible_by_3())
+# class NumberProperties:
+#     def square(self):
+#         return self.number**2
+# class DivisibilityChecker:
+#     def divisible_by_3(self):
+#         return self.number%3==0
+# class NumberAnalyzer(NumberProperties,DivisibilityChecker):
+#     def __init__(self,number):
+#         self.number=number
+# obj=NumberAnalyzer(12)
+# print(obj.square())
+# print(obj.divisible_by_3())
 
 
